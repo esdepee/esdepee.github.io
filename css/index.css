@@ -221,6 +221,9 @@ img	{
 
   .wut {
 	justify-content: center;
-  }	  
-
+  }
+ 
+  .name-info {
+	text-align: center;  
+  }
 }
