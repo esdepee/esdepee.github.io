@@ -31,6 +31,7 @@ a {
 	width: 220px;
 	flex-direction: column;
 	/*margin: 0%*/
+	/*height: 1000px;*/
 }
 
 .right-box {
@@ -105,7 +106,7 @@ strong {
 }
 
 #about {
-	margin-bottom: 100%;
+	margin-bottom: 120%;
 }
 
 i {
@@ -170,7 +171,7 @@ h2 {
 	justify-content: center;*/
 	/*margin: 15px;
 	padding-top: 30px;*/
-	margin: auto;
+	margin: 0 auto;
 }
 
 img	{
@@ -186,4 +187,36 @@ img	{
 
 .name {
 	margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+  * {
+
+  }	
+
+  body {
+   	display: block;
+   	width: auto;
+  }
+
+  .left-box {
+
+  	width: 100vw;
+  	margin: 0;
+  }
+
+  .right-box {
+  	width: 100vw;
+  	margin-left: 0;
+  	padding-left: 35px;
+  }
+
+  #about {
+  	margin-bottom: 0;
+  }
+
+  .content {
+  	text-align: center;
+  }
+
 }
